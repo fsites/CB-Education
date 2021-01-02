@@ -10,14 +10,14 @@ body {
 header {
     background-color: darkgray;
     height: 50px;
-    margin: 0px;
+    margin: 0 0 50px 0;
     position: fixed;
     width: 100%;
 }
 
 .content-section {
     height: 100vh;
-    margin: 0px 0 0 0;
+    margin: 50px 0 0 0;
 } 
 
 #nav-list {
@@ -39,8 +39,34 @@ header {
     text-decoration: none;
 }
 
+#social-media {
+    float: right;
+}
+
+.social-img {
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+}
+
 #home {
     background-image: url('images/tahoe.jpg');
     background-size: cover;
     vertical-align: middle;
+}
+
+#about {
+    background-color: gray;
+}
+
+#services {
+    background-color: lightblue;
+}
+
+#resources {
+    background-color: lightgreen;
+}
+
+#contact {
+    background-color: lightyellow;
 }
