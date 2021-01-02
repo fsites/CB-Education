@@ -1,35 +1,35 @@
+
 body {
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px;
     display: block;
     vertical-align: middle;
     width: 100vw;
+    top: 0;
+    left: 0;
 }
 
+/* header and nav */
 header {
-    background-color: darkgray;
+    background-color: black;
     height: 50px;
-    margin: 0 0 50px 0;
+    margin: 0 0 100px 0;
     position: fixed;
     width: 100%;
+    opacity: 80%;
 }
-
-.content-section {
-    height: 100vh;
-    margin: 50px 0 0 0;
-} 
 
 #nav-list {
     display: inline;
     list-style-type: none;
     margin: 0;
-    padding 0;
+    padding: 0;
     overflow: hidden;
 }
 
 .nav-item {
     float: left;
+    color: white;
 }
 
 .nav-item .nav-item-anchor {
@@ -39,14 +39,35 @@ header {
     text-decoration: none;
 }
 
+
+/* not working, out of time, fix later */
+/* a:hover {
+    border: 20px;
+    border-color: white;
+} */
+
+.nav-item-anchor:visited {
+    color: white;
+}
+
 #social-media {
     float: right;
 }
 
 .social-img {
     border-radius: 50px;
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 35px;
+}
+
+/* Content Sections */
+.content-section {
+    height: 100vh;
+    margin: 0;
+} 
+
+.section-title {
+    vertical-align: center;
 }
 
 #home {
